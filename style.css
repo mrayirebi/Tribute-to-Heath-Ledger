@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  background-color: #000000;
+}
+h2{
+  font-family: Lobster, Monospace; 
+  color: grey;
+}
+.thick-grey-border{
+  border-color:grey;
+  border-width:15px;
+  border-style:solid;
+  border-radius:300px;
+}
+
+p{
+  color: white;
+}
+.white-text{
+  color: white;
+}
+.small-text{
+  font-size:15px;
+}
+.grey-text{
+  color:grey;
+}
+
+.logo
+{
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+height:521px;
+}
+#inner{
+  width:100%;
+  margin:0 auto;
+}
+.center{
+  display: block;
+  margin: auto auto;
+  padding: 5px;
+}
+
+.text-center {
+  font-size: 25px;
+  text-align: center;
+}
+
+.vid {
+  margin: 0 auto;
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
