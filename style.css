@@ -59,3 +59,25 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+.nav ul {
+  margin-top: 0px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4em;
+  color: grey;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 3em;
+}
+
