@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
-body {
+body, html {
   background-color: #000000;
+  scroll-behavior: smooth;
 }
 h2{
   font-family: Lobster, Monospace; 
@@ -18,6 +19,7 @@ h2{
   max-width: 100%;
   display: block;
   height: auto;
+  margin: auto;
 }
 
 p{
@@ -95,10 +97,12 @@ iframe {
 }
 
 .main-nav {
-  text-align: center;
+  text-align: right;
 }
 
 #navbar {
-  background-color: black;
   width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 10px;
 }
